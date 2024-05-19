@@ -1,0 +1,29 @@
+/* styles/navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;     
+  width: 1124px;
+  height: 46px;
+  top: 168px;
+  }  
+  .navbar-center {
+    width: 518px;
+    height: 48px;
+    top: 26.5px;
+    left: 303px;
+    gap: 43px;
+  }
+  
+  .navbar-right {
+    width: 156px;
+    height: Hug 40px;
+    top: 146px;
+    left: 1348px;
+    border-radius:4px;
+    padding: 12px 20px 12px 15px;
+    gap: 10px;
+    background: #2940D3;
+    color: white;
+  }

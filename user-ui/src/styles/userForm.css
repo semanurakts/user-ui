@@ -1,0 +1,65 @@
+.user-form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.user-form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-inputs {
+  margin-bottom: 20px;
+}
+
+.form-inputs input,
+.form-inputs select {
+  width: calc(100% - 20px); /* combobox'ın padding'ini dağıtmak için 20px çıkar */
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-buttons button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-button {
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+}
+
+.close-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.close-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,24 @@
+[
+    {
+      "name": "John Doe",
+      "username": "johndoe",
+      "role": "admin",
+      "email": "john@example.com",
+      "avatar": "https://example.com/avatar/johndoe.jpg"
+    },
+    {
+      "name": "Jane Smith",
+      "username": "janesmith",
+      "role": "user",
+      "email": "jane@example.com",
+      "avatar": "https://example.com/avatar/janesmith.jpg"
+    },
+    {
+      "name": "Alice Johnson",
+      "username": "alicejohnson",
+      "role": "user",
+      "email": "alice@example.com",
+      "avatar": "https://example.com/avatar/alicejohnson.jpg"
+    }
+  ]
+  
